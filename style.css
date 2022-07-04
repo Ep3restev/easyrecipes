@@ -71,7 +71,7 @@ a.active, a:hover{
     height: 80vh;
 }
 .topcontent__img{
-    background-image: url(/easyrecipes/assets/pic5.jpg);
+    background-image: url(/assets/pic5.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -146,12 +146,55 @@ a.active, a:hover{
     opacity: 1;
 }
 
+/*Footer rediseñar*/
+
 .other{
     background-color: #F0A500;
     width: 100%;
-    height: 100vh;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_easy{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    padding: 20px 20px;   
+}
+.title_footer{
+    width: 280px;
+    height: 200px;
+    font-family: 'Cookie', cursive;
+    font-size: 28px;
+    padding: 20px;
+}
+.footer_others{
+    margin: 20px 80px;
+    width: 280px;
+    height: 200px;
+    font-family: 'Cookie', cursive;
+    font-size: 20px;
+    padding: 20px;
 }
 
+.media{
+    width: 100%;
+    margin: 20px 80px;
+    font-family: 'Cookie', cursive;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.icons{
+    width: 80%;
+    height: 60px;
+    display: flex;
+}
+.icons img{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+/*Diseño Responsivo*/
 @media (max-width: 1000px){
     label.header__logo{
         font-size: 40px;
