@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    list-style: none;
 }
 body,html{
     background-color: #1B1A17;
@@ -57,6 +56,7 @@ a.active, a:hover{
     justify-content: center;
 }
 .wrapper{
+    padding-top: 20px;
     max-width: 1170px;
     padding-left: 16px;
     padding-right: 16px;
@@ -66,11 +66,13 @@ a.active, a:hover{
 
 .recipe_image{
     width: 100%;
-    height: 640px;
+    height: 540px;
 }
 .recipe_image img{
-    width: 900px;
-    height: 600px;
+    margin-top: 20px;
+    width: 800px;
+    height: 500px;
+    border-radius: 40px;
 }
 .recipe_image p{
     font-family: 'Roboto', sans-serif;
@@ -102,34 +104,5 @@ a.active, a:hover{
     text-transform: none;
     width: 70%;
     list-style:armenian;
-
 }
 
-.morecontent{
-    width: 400px;
-    background-color: white;
-    padding: 20px 20px;
-}
-.search{
-   width: 280px;
-   margin-top: 200px;
-    
-}
-
-#search_recipes{
-    width: 100%;
-    border-radius: 10px;
-    border: #ccc 2px solid;
-    padding: 12px 8px;
-    margin-top: 10px;
-}
-
-#Buscar{
-    width: 120px;
-    height: 40px;
-    border: #ccc 4px solid;
-    background-color: #F0A500;
-    border-radius: 10px;
-    margin-top: 20px;
-    cursor: pointer;
-}
